@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Repair Shops</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Car Repair Shops</h1>
+    <div class="form-group">
+      <label for="car-brand">Select a Car Brand:</label>
+      <select id="car-brand" onchange="getShops()">
+        <option value="">Select...</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+        <option value="Ford">Ford</option>
+      </select>
+    </div>
+    <div id="shop-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
